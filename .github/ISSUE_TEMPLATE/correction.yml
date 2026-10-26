@@ -1,0 +1,41 @@
+name: Data correction
+description: A row in this dataset is wrong or missing, with an NVIDIA page to prove it.
+title: "[correction] <GPU name>: <what is wrong>"
+labels: ["data"]
+body:
+  - type: input
+    id: gpu
+    attributes:
+      label: GPU
+      placeholder: GeForce RTX 4070
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Official source URL
+      description: An NVIDIA (or AMD/Intel) page that states the conclusion.
+      placeholder: https://www.nvidia.com/en-us/geforce/technologies/dlss/
+    validations:
+      required: true
+  - type: input
+    id: checked
+    attributes:
+      label: Date you read it
+      placeholder: 2026-10-26
+    validations:
+      required: true
+  - type: textarea
+    id: quote
+    attributes:
+      label: What the page says
+      description: Quote the sentence that supports the correction.
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: Should the status be
+      options: [confirmed, planned, unsupported, unknown]
+    validations:
+      required: true

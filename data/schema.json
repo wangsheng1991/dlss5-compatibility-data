@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/wangsheng1991/dlss5-compatibility-data/data/schema.json",
+  "title": "DLSS 5 GPU compatibility dataset",
+  "type": "object",
+  "required": ["schema_version", "generated_at", "gpus"],
+  "properties": {
+    "schema_version": { "type": "string" },
+    "generated_at": { "type": "string", "description": "ISO 8601 UTC timestamp of the export." },
+    "publisher": { "type": "string" },
+    "license": { "type": "object" },
+    "disclaimer": { "type": "string" },
+    "fields": { "type": "object" },
+    "gpus": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["slug", "vendor", "name", "generation", "status", "sources", "features"],
+        "properties": {
+          "slug": { "type": "string", "pattern": "^[a-z0-9-]+$", "description": "Stable identifier; also the site's result-page path segment." },
+          "vendor": { "enum": ["nvidia", "amd", "intel"] },
+          "name": { "type": "string" },
+          "aliases": { "type": "array", "items": { "type": "string" }, "description": "Other spellings found in real queries and browser GPU strings." },
+          "generation": { "type": "string" },
+          "vramGb": { "type": "number" },
+          "status": { "$ref": "#/$defs/status", "description": "Overall DLSS 5 status for the GPU." },
+          "note": { "type": "string" },
+          "sources": { "type": "array", "items": { "$ref": "#/$defs/source" } },
+          "lastVerified": { "type": "string", "description": "YYYY-MM-DD, the date a human opened the source and read the conclusion." },
+          "localSoftware": {
+            "type": "object",
+            "properties": {
+              "fit": { "enum": ["measured", "supported", "below-minimum", "unknown"] },
+              "reason": { "type": "string" },
+              "evidence": { "type": "object", "properties": { "machine": { "type": "string" }, "result": { "type": "string" } } }
+            },
+            "description": "Second axis: whether our own local software runs on this card."
+          },
+          "workflowTier": { "enum": ["good", "ok", "slow", "cloud-only"] },
+          "features": {
+            "type": "object",
+            "additionalProperties": { "$ref": "#/$defs/feature" },
+            "description": "Keyed by neural, superResolution, frameGeneration, multiFrameGeneration."
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "status": { "enum": ["confirmed", "planned", "unsupported", "unknown"] },
+    "source": {
+      "type": "object",
+      "required": ["label", "url", "checkedAt"],
+      "properties": {
+        "label": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "checkedAt": { "type": "string" }
+      }
+    },
+    "feature": {
+      "type": "object",
+      "required": ["status", "sources", "lastVerified"],
+      "properties": {
+        "status": { "$ref": "#/$defs/status" },
+        "note": { "type": "string" },
+        "sources": { "type": "array", "items": { "$ref": "#/$defs/source" } },
+        "lastVerified": { "type": "string" }
+      }
+    }
+  }
+}

@@ -1,0 +1,1679 @@
+{
+ "schema_version": "1.0.0",
+ "generated_at": "2026-10-26T08:15:00Z",
+ "publisher": "DLSS5NVIDIA (https://www.dlss5nvidia.com/dlss-checker)",
+ "license": {
+  "data": "CC-BY-4.0",
+  "code": "MIT"
+ },
+ "disclaimer": "Independent compilation. Not affiliated with, endorsed by, or published by NVIDIA. Facts are attributed to NVIDIA's own pages per entry; anything we could not verify from an official page is recorded as 'unknown'.",
+ "fields": {
+  "status": "confirmed | planned | unsupported | unknown",
+  "localSoftware.fit": "measured | supported | below-minimum",
+  "feature keys": "neural (DLSS 5 neural rendering), superResolution, frameGeneration, multiFrameGeneration"
+ },
+ "gpus": [
+  {
+   "slug": "rtx-5090",
+   "vendor": "nvidia",
+   "name": "GeForce RTX 5090",
+   "aliases": [
+    "NVIDIA GeForce RTX 5090",
+    "RTX 5090"
+   ],
+   "generation": "GeForce RTX 50 Series",
+   "status": "confirmed",
+   "note": "NVIDIA names all RTX 50 Series GPUs; the checked launch game is NBA 2K27. A compatible GPU alone does not enable every game.",
+   "sources": [
+    {
+     "label": "NVIDIA supported hardware table",
+     "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "label": "NVIDIA launch scope: NBA 2K27",
+     "url": "https://www.nvidia.com/en-us/geforce/news/dlss-5-3d-guided-neural-rendering/",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "lastVerified": "2026-10-26",
+   "localSoftware": {
+    "fit": "supported",
+    "reason": "Inference from our published RTX 20-series-or-newer minimum, not a test of this model. Other OS, memory, driver and engine requirements still apply."
+   },
+   "workflowTier": "ok",
+   "features": {
+    "neural": {
+     "status": "confirmed",
+     "note": "NVIDIA names all RTX 50 Series GPUs; the checked launch game is NBA 2K27. A compatible GPU alone does not enable every game.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      },
+      {
+       "label": "NVIDIA launch scope: NBA 2K27",
+       "url": "https://www.nvidia.com/en-us/geforce/news/dlss-5-3d-guided-neural-rendering/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "superResolution": {
+     "status": "confirmed",
+     "note": "Supported hardware family; the game must integrate this feature.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "frameGeneration": {
+     "status": "confirmed",
+     "note": "Supported hardware family; game integration is still required.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "multiFrameGeneration": {
+     "status": "confirmed",
+     "note": "The official table lists Dynamic Multi Frame Generation for RTX 50. This does not assert every game or mode is available.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    }
+   }
+  },
+  {
+   "slug": "rtx-5080",
+   "vendor": "nvidia",
+   "name": "GeForce RTX 5080",
+   "aliases": [
+    "NVIDIA GeForce RTX 5080",
+    "RTX 5080"
+   ],
+   "generation": "GeForce RTX 50 Series",
+   "status": "confirmed",
+   "note": "NVIDIA names all RTX 50 Series GPUs; the checked launch game is NBA 2K27. A compatible GPU alone does not enable every game.",
+   "sources": [
+    {
+     "label": "NVIDIA supported hardware table",
+     "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "label": "NVIDIA launch scope: NBA 2K27",
+     "url": "https://www.nvidia.com/en-us/geforce/news/dlss-5-3d-guided-neural-rendering/",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "lastVerified": "2026-10-26",
+   "localSoftware": {
+    "fit": "supported",
+    "reason": "Inference from our published RTX 20-series-or-newer minimum, not a test of this model. Other OS, memory, driver and engine requirements still apply."
+   },
+   "workflowTier": "ok",
+   "features": {
+    "neural": {
+     "status": "confirmed",
+     "note": "NVIDIA names all RTX 50 Series GPUs; the checked launch game is NBA 2K27. A compatible GPU alone does not enable every game.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      },
+      {
+       "label": "NVIDIA launch scope: NBA 2K27",
+       "url": "https://www.nvidia.com/en-us/geforce/news/dlss-5-3d-guided-neural-rendering/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "superResolution": {
+     "status": "confirmed",
+     "note": "Supported hardware family; the game must integrate this feature.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "frameGeneration": {
+     "status": "confirmed",
+     "note": "Supported hardware family; game integration is still required.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "multiFrameGeneration": {
+     "status": "confirmed",
+     "note": "The official table lists Dynamic Multi Frame Generation for RTX 50. This does not assert every game or mode is available.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    }
+   }
+  },
+  {
+   "slug": "rtx-5070-ti",
+   "vendor": "nvidia",
+   "name": "GeForce RTX 5070 Ti",
+   "aliases": [
+    "NVIDIA GeForce RTX 5070 Ti",
+    "RTX 5070 Ti"
+   ],
+   "generation": "GeForce RTX 50 Series",
+   "status": "confirmed",
+   "note": "NVIDIA names all RTX 50 Series GPUs; the checked launch game is NBA 2K27. A compatible GPU alone does not enable every game.",
+   "sources": [
+    {
+     "label": "NVIDIA supported hardware table",
+     "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "label": "NVIDIA launch scope: NBA 2K27",
+     "url": "https://www.nvidia.com/en-us/geforce/news/dlss-5-3d-guided-neural-rendering/",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "lastVerified": "2026-10-26",
+   "localSoftware": {
+    "fit": "supported",
+    "reason": "Inference from our published RTX 20-series-or-newer minimum, not a test of this model. Other OS, memory, driver and engine requirements still apply."
+   },
+   "workflowTier": "ok",
+   "features": {
+    "neural": {
+     "status": "confirmed",
+     "note": "NVIDIA names all RTX 50 Series GPUs; the checked launch game is NBA 2K27. A compatible GPU alone does not enable every game.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      },
+      {
+       "label": "NVIDIA launch scope: NBA 2K27",
+       "url": "https://www.nvidia.com/en-us/geforce/news/dlss-5-3d-guided-neural-rendering/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "superResolution": {
+     "status": "confirmed",
+     "note": "Supported hardware family; the game must integrate this feature.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "frameGeneration": {
+     "status": "confirmed",
+     "note": "Supported hardware family; game integration is still required.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "multiFrameGeneration": {
+     "status": "confirmed",
+     "note": "The official table lists Dynamic Multi Frame Generation for RTX 50. This does not assert every game or mode is available.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    }
+   }
+  },
+  {
+   "slug": "rtx-5070",
+   "vendor": "nvidia",
+   "name": "GeForce RTX 5070",
+   "aliases": [
+    "NVIDIA GeForce RTX 5070",
+    "RTX 5070"
+   ],
+   "generation": "GeForce RTX 50 Series",
+   "status": "confirmed",
+   "note": "NVIDIA names all RTX 50 Series GPUs; the checked launch game is NBA 2K27. A compatible GPU alone does not enable every game.",
+   "sources": [
+    {
+     "label": "NVIDIA supported hardware table",
+     "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "label": "NVIDIA launch scope: NBA 2K27",
+     "url": "https://www.nvidia.com/en-us/geforce/news/dlss-5-3d-guided-neural-rendering/",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "lastVerified": "2026-10-26",
+   "localSoftware": {
+    "fit": "supported",
+    "reason": "Inference from our published RTX 20-series-or-newer minimum, not a test of this model. Other OS, memory, driver and engine requirements still apply."
+   },
+   "workflowTier": "ok",
+   "features": {
+    "neural": {
+     "status": "confirmed",
+     "note": "NVIDIA names all RTX 50 Series GPUs; the checked launch game is NBA 2K27. A compatible GPU alone does not enable every game.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      },
+      {
+       "label": "NVIDIA launch scope: NBA 2K27",
+       "url": "https://www.nvidia.com/en-us/geforce/news/dlss-5-3d-guided-neural-rendering/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "superResolution": {
+     "status": "confirmed",
+     "note": "Supported hardware family; the game must integrate this feature.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "frameGeneration": {
+     "status": "confirmed",
+     "note": "Supported hardware family; game integration is still required.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "multiFrameGeneration": {
+     "status": "confirmed",
+     "note": "The official table lists Dynamic Multi Frame Generation for RTX 50. This does not assert every game or mode is available.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    }
+   }
+  },
+  {
+   "slug": "rtx-5060",
+   "vendor": "nvidia",
+   "name": "GeForce RTX 5060",
+   "aliases": [
+    "NVIDIA GeForce RTX 5060",
+    "RTX 5060"
+   ],
+   "generation": "GeForce RTX 50 Series",
+   "status": "confirmed",
+   "note": "NVIDIA names all RTX 50 Series GPUs; the checked launch game is NBA 2K27. A compatible GPU alone does not enable every game.",
+   "sources": [
+    {
+     "label": "NVIDIA supported hardware table",
+     "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "label": "NVIDIA launch scope: NBA 2K27",
+     "url": "https://www.nvidia.com/en-us/geforce/news/dlss-5-3d-guided-neural-rendering/",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "lastVerified": "2026-10-26",
+   "localSoftware": {
+    "fit": "supported",
+    "reason": "Inference from our published RTX 20-series-or-newer minimum, not a test of this model. Other OS, memory, driver and engine requirements still apply."
+   },
+   "workflowTier": "ok",
+   "features": {
+    "neural": {
+     "status": "confirmed",
+     "note": "NVIDIA names all RTX 50 Series GPUs; the checked launch game is NBA 2K27. A compatible GPU alone does not enable every game.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      },
+      {
+       "label": "NVIDIA launch scope: NBA 2K27",
+       "url": "https://www.nvidia.com/en-us/geforce/news/dlss-5-3d-guided-neural-rendering/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "superResolution": {
+     "status": "confirmed",
+     "note": "Supported hardware family; the game must integrate this feature.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "frameGeneration": {
+     "status": "confirmed",
+     "note": "Supported hardware family; game integration is still required.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "multiFrameGeneration": {
+     "status": "confirmed",
+     "note": "The official table lists Dynamic Multi Frame Generation for RTX 50. This does not assert every game or mode is available.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    }
+   }
+  },
+  {
+   "slug": "rtx-4090",
+   "vendor": "nvidia",
+   "name": "GeForce RTX 4090",
+   "aliases": [
+    "NVIDIA GeForce RTX 4090",
+    "RTX 4090"
+   ],
+   "generation": "GeForce RTX 40 Series",
+   "status": "planned",
+   "note": "NVIDIA staff plan to work on RTX 40 support after RTX 50 tuning. No release date is promised; the current hardware table still shows a dash.",
+   "sources": [
+    {
+     "label": "NVIDIA staff FAQ: RTX 40 future plan",
+     "url": "https://www.nvidia.com/en-us/geforce/forums/nvidia-app/129/583738/dlss-5-faq-932026/",
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "label": "NVIDIA supported hardware table",
+     "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "lastVerified": "2026-10-26",
+   "localSoftware": {
+    "fit": "measured",
+    "reason": "We ran it on this card ourselves and kept the numbers.",
+    "evidence": {
+     "machine": "Windows 11 Pro, RTX 4090 24 GB, driver 591.86",
+     "result": "720p source → 2560×1440 H.264 MP4 in 87.4 s (2.43 s/frame; software encode on that driver)"
+    }
+   },
+   "workflowTier": "good",
+   "features": {
+    "neural": {
+     "status": "planned",
+     "note": "NVIDIA staff plan to work on RTX 40 support after RTX 50 tuning. No release date is promised; the current hardware table still shows a dash.",
+     "sources": [
+      {
+       "label": "NVIDIA staff FAQ: RTX 40 future plan",
+       "url": "https://www.nvidia.com/en-us/geforce/forums/nvidia-app/129/583738/dlss-5-faq-932026/",
+       "checkedAt": "2026-10-26"
+      },
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "superResolution": {
+     "status": "confirmed",
+     "note": "Supported hardware family; the game must integrate this feature.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "frameGeneration": {
+     "status": "confirmed",
+     "note": "Supported hardware family; game integration is still required.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "multiFrameGeneration": {
+     "status": "unsupported",
+     "note": "Not in the current published hardware range. This is not a claim about all future releases.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    }
+   }
+  },
+  {
+   "slug": "rtx-4080",
+   "vendor": "nvidia",
+   "name": "GeForce RTX 4080",
+   "aliases": [
+    "NVIDIA GeForce RTX 4080",
+    "RTX 4080"
+   ],
+   "generation": "GeForce RTX 40 Series",
+   "status": "planned",
+   "note": "NVIDIA staff plan to work on RTX 40 support after RTX 50 tuning. No release date is promised; the current hardware table still shows a dash.",
+   "sources": [
+    {
+     "label": "NVIDIA staff FAQ: RTX 40 future plan",
+     "url": "https://www.nvidia.com/en-us/geforce/forums/nvidia-app/129/583738/dlss-5-faq-932026/",
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "label": "NVIDIA supported hardware table",
+     "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "lastVerified": "2026-10-26",
+   "localSoftware": {
+    "fit": "supported",
+    "reason": "Inference from our published RTX 20-series-or-newer minimum, not a test of this model. Other OS, memory, driver and engine requirements still apply."
+   },
+   "workflowTier": "ok",
+   "features": {
+    "neural": {
+     "status": "planned",
+     "note": "NVIDIA staff plan to work on RTX 40 support after RTX 50 tuning. No release date is promised; the current hardware table still shows a dash.",
+     "sources": [
+      {
+       "label": "NVIDIA staff FAQ: RTX 40 future plan",
+       "url": "https://www.nvidia.com/en-us/geforce/forums/nvidia-app/129/583738/dlss-5-faq-932026/",
+       "checkedAt": "2026-10-26"
+      },
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "superResolution": {
+     "status": "confirmed",
+     "note": "Supported hardware family; the game must integrate this feature.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "frameGeneration": {
+     "status": "confirmed",
+     "note": "Supported hardware family; game integration is still required.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "multiFrameGeneration": {
+     "status": "unsupported",
+     "note": "Not in the current published hardware range. This is not a claim about all future releases.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    }
+   }
+  },
+  {
+   "slug": "rtx-4070",
+   "vendor": "nvidia",
+   "name": "GeForce RTX 4070",
+   "aliases": [
+    "NVIDIA GeForce RTX 4070",
+    "RTX 4070"
+   ],
+   "generation": "GeForce RTX 40 Series",
+   "status": "planned",
+   "note": "NVIDIA staff plan to work on RTX 40 support after RTX 50 tuning. No release date is promised; the current hardware table still shows a dash.",
+   "sources": [
+    {
+     "label": "NVIDIA staff FAQ: RTX 40 future plan",
+     "url": "https://www.nvidia.com/en-us/geforce/forums/nvidia-app/129/583738/dlss-5-faq-932026/",
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "label": "NVIDIA supported hardware table",
+     "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "lastVerified": "2026-10-26",
+   "localSoftware": {
+    "fit": "supported",
+    "reason": "Inference from our published RTX 20-series-or-newer minimum, not a test of this model. Other OS, memory, driver and engine requirements still apply."
+   },
+   "workflowTier": "ok",
+   "features": {
+    "neural": {
+     "status": "planned",
+     "note": "NVIDIA staff plan to work on RTX 40 support after RTX 50 tuning. No release date is promised; the current hardware table still shows a dash.",
+     "sources": [
+      {
+       "label": "NVIDIA staff FAQ: RTX 40 future plan",
+       "url": "https://www.nvidia.com/en-us/geforce/forums/nvidia-app/129/583738/dlss-5-faq-932026/",
+       "checkedAt": "2026-10-26"
+      },
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "superResolution": {
+     "status": "confirmed",
+     "note": "Supported hardware family; the game must integrate this feature.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "frameGeneration": {
+     "status": "confirmed",
+     "note": "Supported hardware family; game integration is still required.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "multiFrameGeneration": {
+     "status": "unsupported",
+     "note": "Not in the current published hardware range. This is not a claim about all future releases.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    }
+   }
+  },
+  {
+   "slug": "rtx-4060",
+   "vendor": "nvidia",
+   "name": "GeForce RTX 4060",
+   "aliases": [
+    "NVIDIA GeForce RTX 4060",
+    "RTX 4060"
+   ],
+   "generation": "GeForce RTX 40 Series",
+   "status": "planned",
+   "note": "NVIDIA staff plan to work on RTX 40 support after RTX 50 tuning. No release date is promised; the current hardware table still shows a dash.",
+   "sources": [
+    {
+     "label": "NVIDIA staff FAQ: RTX 40 future plan",
+     "url": "https://www.nvidia.com/en-us/geforce/forums/nvidia-app/129/583738/dlss-5-faq-932026/",
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "label": "NVIDIA supported hardware table",
+     "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "lastVerified": "2026-10-26",
+   "localSoftware": {
+    "fit": "supported",
+    "reason": "Inference from our published RTX 20-series-or-newer minimum, not a test of this model. Other OS, memory, driver and engine requirements still apply."
+   },
+   "workflowTier": "ok",
+   "features": {
+    "neural": {
+     "status": "planned",
+     "note": "NVIDIA staff plan to work on RTX 40 support after RTX 50 tuning. No release date is promised; the current hardware table still shows a dash.",
+     "sources": [
+      {
+       "label": "NVIDIA staff FAQ: RTX 40 future plan",
+       "url": "https://www.nvidia.com/en-us/geforce/forums/nvidia-app/129/583738/dlss-5-faq-932026/",
+       "checkedAt": "2026-10-26"
+      },
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "superResolution": {
+     "status": "confirmed",
+     "note": "Supported hardware family; the game must integrate this feature.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "frameGeneration": {
+     "status": "confirmed",
+     "note": "Supported hardware family; game integration is still required.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "multiFrameGeneration": {
+     "status": "unsupported",
+     "note": "Not in the current published hardware range. This is not a claim about all future releases.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    }
+   }
+  },
+  {
+   "slug": "rtx-3090",
+   "vendor": "nvidia",
+   "name": "GeForce RTX 3090",
+   "aliases": [
+    "NVIDIA GeForce RTX 3090",
+    "RTX 3090"
+   ],
+   "generation": "GeForce RTX 30 Series",
+   "status": "unsupported",
+   "note": "Not in the current published hardware range. This is not a claim about all future releases.",
+   "sources": [
+    {
+     "label": "NVIDIA supported hardware table",
+     "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "lastVerified": "2026-10-26",
+   "localSoftware": {
+    "fit": "supported",
+    "reason": "Inference from our published RTX 20-series-or-newer minimum, not a test of this model. Other OS, memory, driver and engine requirements still apply."
+   },
+   "workflowTier": "ok",
+   "features": {
+    "neural": {
+     "status": "unsupported",
+     "note": "Not in the current published hardware range. This is not a claim about all future releases.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "superResolution": {
+     "status": "confirmed",
+     "note": "Supported hardware family; the game must integrate this feature.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "frameGeneration": {
+     "status": "unsupported",
+     "note": "Not in the current published hardware range. This is not a claim about all future releases.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "multiFrameGeneration": {
+     "status": "unsupported",
+     "note": "Not in the current published hardware range. This is not a claim about all future releases.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    }
+   }
+  },
+  {
+   "slug": "rtx-3080",
+   "vendor": "nvidia",
+   "name": "GeForce RTX 3080",
+   "aliases": [
+    "NVIDIA GeForce RTX 3080",
+    "RTX 3080"
+   ],
+   "generation": "GeForce RTX 30 Series",
+   "status": "unsupported",
+   "note": "Not in the current published hardware range. This is not a claim about all future releases.",
+   "sources": [
+    {
+     "label": "NVIDIA supported hardware table",
+     "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "lastVerified": "2026-10-26",
+   "localSoftware": {
+    "fit": "supported",
+    "reason": "Inference from our published RTX 20-series-or-newer minimum, not a test of this model. Other OS, memory, driver and engine requirements still apply."
+   },
+   "workflowTier": "ok",
+   "features": {
+    "neural": {
+     "status": "unsupported",
+     "note": "Not in the current published hardware range. This is not a claim about all future releases.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "superResolution": {
+     "status": "confirmed",
+     "note": "Supported hardware family; the game must integrate this feature.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "frameGeneration": {
+     "status": "unsupported",
+     "note": "Not in the current published hardware range. This is not a claim about all future releases.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "multiFrameGeneration": {
+     "status": "unsupported",
+     "note": "Not in the current published hardware range. This is not a claim about all future releases.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    }
+   }
+  },
+  {
+   "slug": "rtx-3070",
+   "vendor": "nvidia",
+   "name": "GeForce RTX 3070",
+   "aliases": [
+    "NVIDIA GeForce RTX 3070",
+    "RTX 3070"
+   ],
+   "generation": "GeForce RTX 30 Series",
+   "status": "unsupported",
+   "note": "Not in the current published hardware range. This is not a claim about all future releases.",
+   "sources": [
+    {
+     "label": "NVIDIA supported hardware table",
+     "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "lastVerified": "2026-10-26",
+   "localSoftware": {
+    "fit": "supported",
+    "reason": "Inference from our published RTX 20-series-or-newer minimum, not a test of this model. Other OS, memory, driver and engine requirements still apply."
+   },
+   "workflowTier": "ok",
+   "features": {
+    "neural": {
+     "status": "unsupported",
+     "note": "Not in the current published hardware range. This is not a claim about all future releases.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "superResolution": {
+     "status": "confirmed",
+     "note": "Supported hardware family; the game must integrate this feature.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "frameGeneration": {
+     "status": "unsupported",
+     "note": "Not in the current published hardware range. This is not a claim about all future releases.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "multiFrameGeneration": {
+     "status": "unsupported",
+     "note": "Not in the current published hardware range. This is not a claim about all future releases.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    }
+   }
+  },
+  {
+   "slug": "rtx-3060",
+   "vendor": "nvidia",
+   "name": "GeForce RTX 3060",
+   "aliases": [
+    "NVIDIA GeForce RTX 3060",
+    "RTX 3060"
+   ],
+   "generation": "GeForce RTX 30 Series",
+   "status": "unsupported",
+   "note": "Not in the current published hardware range. This is not a claim about all future releases.",
+   "sources": [
+    {
+     "label": "NVIDIA supported hardware table",
+     "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "lastVerified": "2026-10-26",
+   "localSoftware": {
+    "fit": "supported",
+    "reason": "Inference from our published RTX 20-series-or-newer minimum, not a test of this model. Other OS, memory, driver and engine requirements still apply."
+   },
+   "workflowTier": "ok",
+   "features": {
+    "neural": {
+     "status": "unsupported",
+     "note": "Not in the current published hardware range. This is not a claim about all future releases.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "superResolution": {
+     "status": "confirmed",
+     "note": "Supported hardware family; the game must integrate this feature.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "frameGeneration": {
+     "status": "unsupported",
+     "note": "Not in the current published hardware range. This is not a claim about all future releases.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "multiFrameGeneration": {
+     "status": "unsupported",
+     "note": "Not in the current published hardware range. This is not a claim about all future releases.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    }
+   }
+  },
+  {
+   "slug": "rtx-2080",
+   "vendor": "nvidia",
+   "name": "GeForce RTX 2080",
+   "aliases": [
+    "NVIDIA GeForce RTX 2080",
+    "RTX 2080"
+   ],
+   "generation": "GeForce RTX 20 Series",
+   "status": "unsupported",
+   "note": "Not in the current published hardware range. This is not a claim about all future releases.",
+   "sources": [
+    {
+     "label": "NVIDIA supported hardware table",
+     "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "lastVerified": "2026-10-26",
+   "localSoftware": {
+    "fit": "supported",
+    "reason": "Inference from our published RTX 20-series-or-newer minimum, not a test of this model. Other OS, memory, driver and engine requirements still apply."
+   },
+   "workflowTier": "ok",
+   "features": {
+    "neural": {
+     "status": "unsupported",
+     "note": "Not in the current published hardware range. This is not a claim about all future releases.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "superResolution": {
+     "status": "confirmed",
+     "note": "Supported hardware family; the game must integrate this feature.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "frameGeneration": {
+     "status": "unsupported",
+     "note": "Not in the current published hardware range. This is not a claim about all future releases.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "multiFrameGeneration": {
+     "status": "unsupported",
+     "note": "Not in the current published hardware range. This is not a claim about all future releases.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    }
+   }
+  },
+  {
+   "slug": "rtx-2060",
+   "vendor": "nvidia",
+   "name": "GeForce RTX 2060",
+   "aliases": [
+    "NVIDIA GeForce RTX 2060",
+    "RTX 2060"
+   ],
+   "generation": "GeForce RTX 20 Series",
+   "status": "unsupported",
+   "note": "Not in the current published hardware range. This is not a claim about all future releases.",
+   "sources": [
+    {
+     "label": "NVIDIA supported hardware table",
+     "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "lastVerified": "2026-10-26",
+   "localSoftware": {
+    "fit": "supported",
+    "reason": "Inference from our published RTX 20-series-or-newer minimum, not a test of this model. Other OS, memory, driver and engine requirements still apply."
+   },
+   "workflowTier": "ok",
+   "features": {
+    "neural": {
+     "status": "unsupported",
+     "note": "Not in the current published hardware range. This is not a claim about all future releases.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "superResolution": {
+     "status": "confirmed",
+     "note": "Supported hardware family; the game must integrate this feature.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "frameGeneration": {
+     "status": "unsupported",
+     "note": "Not in the current published hardware range. This is not a claim about all future releases.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "multiFrameGeneration": {
+     "status": "unsupported",
+     "note": "Not in the current published hardware range. This is not a claim about all future releases.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    }
+   }
+  },
+  {
+   "slug": "rx-9070-xt",
+   "vendor": "amd",
+   "name": "Radeon RX 9070 XT",
+   "aliases": [
+    "rx 9070 xt"
+   ],
+   "generation": "AMD Radeon",
+   "status": "unknown",
+   "note": "No model-level NVIDIA DLSS conclusion in the reviewed sources. A remote cloud session is a separate path.",
+   "sources": [
+    {
+     "label": "NVIDIA supported hardware table",
+     "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "lastVerified": "2026-10-26",
+   "localSoftware": {
+    "fit": "below-minimum",
+    "reason": "Inference: this is not an NVIDIA RTX GPU, so it does not meet our published local-build GPU requirement. The independent browser workflow is a separate option."
+   },
+   "workflowTier": "cloud-only",
+   "features": {
+    "neural": {
+     "status": "unknown",
+     "note": "The reviewed NVIDIA table does not establish model-level support here; no unsupported verdict is inferred from omission.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "superResolution": {
+     "status": "unknown",
+     "note": "The reviewed NVIDIA table does not establish model-level support here; no unsupported verdict is inferred from omission.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "frameGeneration": {
+     "status": "unknown",
+     "note": "The reviewed NVIDIA table does not establish model-level support here; no unsupported verdict is inferred from omission.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "multiFrameGeneration": {
+     "status": "unknown",
+     "note": "The reviewed NVIDIA table does not establish model-level support here; no unsupported verdict is inferred from omission.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    }
+   }
+  },
+  {
+   "slug": "rx-7900-xtx",
+   "vendor": "amd",
+   "name": "Radeon RX 7900 XTX",
+   "aliases": [
+    "rx 7900 xtx"
+   ],
+   "generation": "AMD Radeon",
+   "status": "unknown",
+   "note": "No model-level NVIDIA DLSS conclusion in the reviewed sources. A remote cloud session is a separate path.",
+   "sources": [
+    {
+     "label": "NVIDIA supported hardware table",
+     "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "lastVerified": "2026-10-26",
+   "localSoftware": {
+    "fit": "below-minimum",
+    "reason": "Inference: this is not an NVIDIA RTX GPU, so it does not meet our published local-build GPU requirement. The independent browser workflow is a separate option."
+   },
+   "workflowTier": "cloud-only",
+   "features": {
+    "neural": {
+     "status": "unknown",
+     "note": "The reviewed NVIDIA table does not establish model-level support here; no unsupported verdict is inferred from omission.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "superResolution": {
+     "status": "unknown",
+     "note": "The reviewed NVIDIA table does not establish model-level support here; no unsupported verdict is inferred from omission.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "frameGeneration": {
+     "status": "unknown",
+     "note": "The reviewed NVIDIA table does not establish model-level support here; no unsupported verdict is inferred from omission.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "multiFrameGeneration": {
+     "status": "unknown",
+     "note": "The reviewed NVIDIA table does not establish model-level support here; no unsupported verdict is inferred from omission.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    }
+   }
+  },
+  {
+   "slug": "rx-7800-xt",
+   "vendor": "amd",
+   "name": "Radeon RX 7800 XT",
+   "aliases": [
+    "rx 7800 xt"
+   ],
+   "generation": "AMD Radeon",
+   "status": "unknown",
+   "note": "No model-level NVIDIA DLSS conclusion in the reviewed sources. A remote cloud session is a separate path.",
+   "sources": [
+    {
+     "label": "NVIDIA supported hardware table",
+     "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "lastVerified": "2026-10-26",
+   "localSoftware": {
+    "fit": "below-minimum",
+    "reason": "Inference: this is not an NVIDIA RTX GPU, so it does not meet our published local-build GPU requirement. The independent browser workflow is a separate option."
+   },
+   "workflowTier": "cloud-only",
+   "features": {
+    "neural": {
+     "status": "unknown",
+     "note": "The reviewed NVIDIA table does not establish model-level support here; no unsupported verdict is inferred from omission.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "superResolution": {
+     "status": "unknown",
+     "note": "The reviewed NVIDIA table does not establish model-level support here; no unsupported verdict is inferred from omission.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "frameGeneration": {
+     "status": "unknown",
+     "note": "The reviewed NVIDIA table does not establish model-level support here; no unsupported verdict is inferred from omission.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "multiFrameGeneration": {
+     "status": "unknown",
+     "note": "The reviewed NVIDIA table does not establish model-level support here; no unsupported verdict is inferred from omission.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    }
+   }
+  },
+  {
+   "slug": "arc-b580",
+   "vendor": "intel",
+   "name": "Intel Arc B580",
+   "aliases": [
+    "arc b580"
+   ],
+   "generation": "Intel Arc",
+   "status": "unknown",
+   "note": "No model-level NVIDIA DLSS conclusion in the reviewed sources. A remote cloud session is a separate path.",
+   "sources": [
+    {
+     "label": "NVIDIA supported hardware table",
+     "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "lastVerified": "2026-10-26",
+   "localSoftware": {
+    "fit": "below-minimum",
+    "reason": "Inference: this is not an NVIDIA RTX GPU, so it does not meet our published local-build GPU requirement. The independent browser workflow is a separate option."
+   },
+   "workflowTier": "cloud-only",
+   "features": {
+    "neural": {
+     "status": "unknown",
+     "note": "The reviewed NVIDIA table does not establish model-level support here; no unsupported verdict is inferred from omission.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "superResolution": {
+     "status": "unknown",
+     "note": "The reviewed NVIDIA table does not establish model-level support here; no unsupported verdict is inferred from omission.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "frameGeneration": {
+     "status": "unknown",
+     "note": "The reviewed NVIDIA table does not establish model-level support here; no unsupported verdict is inferred from omission.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "multiFrameGeneration": {
+     "status": "unknown",
+     "note": "The reviewed NVIDIA table does not establish model-level support here; no unsupported verdict is inferred from omission.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    }
+   }
+  },
+  {
+   "slug": "arc-a770",
+   "vendor": "intel",
+   "name": "Intel Arc A770",
+   "aliases": [
+    "arc a770"
+   ],
+   "generation": "Intel Arc",
+   "status": "unknown",
+   "note": "No model-level NVIDIA DLSS conclusion in the reviewed sources. A remote cloud session is a separate path.",
+   "sources": [
+    {
+     "label": "NVIDIA supported hardware table",
+     "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "lastVerified": "2026-10-26",
+   "localSoftware": {
+    "fit": "below-minimum",
+    "reason": "Inference: this is not an NVIDIA RTX GPU, so it does not meet our published local-build GPU requirement. The independent browser workflow is a separate option."
+   },
+   "workflowTier": "cloud-only",
+   "features": {
+    "neural": {
+     "status": "unknown",
+     "note": "The reviewed NVIDIA table does not establish model-level support here; no unsupported verdict is inferred from omission.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "superResolution": {
+     "status": "unknown",
+     "note": "The reviewed NVIDIA table does not establish model-level support here; no unsupported verdict is inferred from omission.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "frameGeneration": {
+     "status": "unknown",
+     "note": "The reviewed NVIDIA table does not establish model-level support here; no unsupported verdict is inferred from omission.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "multiFrameGeneration": {
+     "status": "unknown",
+     "note": "The reviewed NVIDIA table does not establish model-level support here; no unsupported verdict is inferred from omission.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    }
+   }
+  },
+  {
+   "slug": "gtx-1060",
+   "vendor": "nvidia",
+   "name": "GeForce GTX 1060",
+   "aliases": [
+    "GTX 1060"
+   ],
+   "generation": "GeForce GTX 10 Series",
+   "status": "unknown",
+   "sources": [
+    {
+     "label": "NVIDIA supported hardware table",
+     "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "lastVerified": "2026-10-26",
+   "localSoftware": {
+    "fit": "below-minimum",
+    "reason": "Inference from the published RTX minimum; this GTX card is outside that requirement, not a measured speed result."
+   },
+   "workflowTier": "cloud-only",
+   "features": {
+    "neural": {
+     "status": "unknown",
+     "note": "The reviewed NVIDIA table does not establish model-level support here; no unsupported verdict is inferred from omission.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "superResolution": {
+     "status": "unknown",
+     "note": "The reviewed NVIDIA table does not establish model-level support here; no unsupported verdict is inferred from omission.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "frameGeneration": {
+     "status": "unknown",
+     "note": "The reviewed NVIDIA table does not establish model-level support here; no unsupported verdict is inferred from omission.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    },
+    "multiFrameGeneration": {
+     "status": "unknown",
+     "note": "The reviewed NVIDIA table does not establish model-level support here; no unsupported verdict is inferred from omission.",
+     "sources": [
+      {
+       "label": "NVIDIA supported hardware table",
+       "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "lastVerified": "2026-10-26"
+    }
+   }
+  }
+ ]
+}
