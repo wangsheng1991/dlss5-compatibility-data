@@ -70,3 +70,10 @@ Commercial use of the data is fine under CC BY 4.0. What is not fine is presenti
 Open an issue with the exact NVIDIA URL and the date you checked it. A correction without a citable source will not be merged — that rule is the whole point of the dataset.
 
 NVIDIA, GeForce, DLSS and RTX are trademarks of NVIDIA Corporation. This project is independent.
+
+## Related
+
+- [dlss5-enhancer-cli](https://github.com/wangsheng1991/dlss5-enhancer-cli) — Batch image enhancement from your own machine — the command-line client for the web enhancer.
+- [dlss5-visual-enhancer](https://github.com/wangsheng1991/dlss5-visual-enhancer) — Reproduce one documented enhancement example locally: input, output, hashes, compare page.
+- [dlss-5-studio](https://github.com/wangsheng1991/dlss-5-studio) — The Windows RTX desktop app behind dlss5nvidia.com — requirements, release notes, issues.
+- [DLSS5NVIDIA](https://www.dlss5nvidia.com/) — the site these projects belong to
