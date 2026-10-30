@@ -77,3 +77,4 @@ NVIDIA, GeForce, DLSS and RTX are trademarks of NVIDIA Corporation. This project
 - [dlss5-visual-enhancer](https://github.com/wangsheng1991/dlss5-visual-enhancer) — Reproduce one documented enhancement example locally: input, output, hashes, compare page.
 - [dlss-5-studio](https://github.com/wangsheng1991/dlss-5-studio) — The Windows RTX desktop app behind dlss5nvidia.com — requirements, release notes, issues.
 - [DLSS5NVIDIA](https://www.dlss5nvidia.com/) — the site these projects belong to
+- [Hugging Face dataset](https://huggingface.co/datasets/shi9214/dlss5-gpu-compatibility) — the same data, loadable as a dataset
